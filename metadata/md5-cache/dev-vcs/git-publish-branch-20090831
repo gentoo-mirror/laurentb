@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=git-publish-branch is a simple script to ease the unnecessarily complex task of "publishing" a branch
+EAPI=5
+HOMEPAGE=http://git-wt-commit.rubyforge.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-vcs/git dev-lang/ruby
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://gitorious.org/willgit/mainline/blobs/raw/165815e/bin/git-publish-branch -> git-publish-branch-20090831 http://stuff.laurent.bachelier.name/mirror/git-publish-branch-20090831
+_eclass_exported_funcs=src_unpack:- src_install:-
+_md5_=ba1e00e9633128fbc2348bf14aba7700

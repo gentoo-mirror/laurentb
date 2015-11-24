@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=git-wtf is a script to display the state of your repository in a readable and easy-to-scan format.
+EAPI=5
+HOMEPAGE=http://git-wt-commit.rubyforge.org/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-vcs/git dev-lang/ruby
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://gitorious.org/willgit/mainline/blobs/raw/7c9cccb/bin/git-wtf -> git-wtf-20091207 http://stuff.laurent.bachelier.name/mirror/git-wtf-20091207
+_eclass_exported_funcs=src_unpack:- src_install:-
+_md5_=850ed91b65c66ed5f42af88dcfd61a08
