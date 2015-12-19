@@ -4,19 +4,19 @@ app-arch/dtrx 7.1: Intelligently extract multiple archive types.
 app-misc/mat 0.5.2: Metadata Anonymisation Toolkit
 app-office/icalfilter 0.1: Swiss-army knife for iCalendar files; provides grep and sed-like features.
 app-text/dictator 0.9.7: On-screen text file reader employing Rapid Serial Visual Presentation.
-app-text/hyde 0.8.8 9999: Static website generator written in Python
+app-text/hyde 0.8.9: Static website generator written in Python
 dev-db/greptable 1.1.0: List tables of SQL databases for easy schema greps
 dev-php/symfony 1.4.20 9996 9997 9998 9999: Open-source PHP5 web framework
 dev-python/ConfigObject 1.2.2: Wrapper to the python ConfigParser to allow to access sections/options with attribute names
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
 dev-python/chut 0.10: Small tool to interact with shell pipes
-dev-python/commando 0.3.4 9999: A declarative interface for argparse
+dev-python/commando 1.0.0: A declarative interface for argparse
 dev-python/docopt 0.6.1: Pythonic argument parser
 dev-python/docopts 0.6.1-r2: Shell interface for docopt, the command-line interface description language
 dev-python/fabtools 0.19.0: Tools for writing awesome Fabric files
 dev-python/flakeplus 1.0.0: Additional pyflakes
-dev-python/fswrap 0.1.2: An opinionated wrapper on file system and path functions
+dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path functions
 dev-python/ftfy 3.4.0 4.0.0: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
