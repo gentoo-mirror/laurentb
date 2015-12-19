@@ -11,7 +11,6 @@ dev-python/ConfigObject 1.2.2: Wrapper to the python ConfigParser to allow to ac
 dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
 dev-python/chut 0.10: Small tool to interact with shell pipes
-dev-python/clint 0.3.7: Python Command-line Application Tools
 dev-python/commando 0.3.4 9999: A declarative interface for argparse
 dev-python/docopt 0.6.1: Pythonic argument parser
 dev-python/docopts 0.6.1-r2: Shell interface for docopt, the command-line interface description language
@@ -29,7 +28,6 @@ dev-python/pies2overrides 2.6.1: Defines override classes that should be include
 dev-python/plumbum 1.4.2: Shell combinators library
 dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
-dev-python/pytest-xdist 1.11: py.test xdist plugin for distributed testing and loop-on-failing
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
 dev-python/smartypants 1.6.0.3 1.8.6: SmartyPants: a smart-quotes plugin.
 dev-python/statsd 3.0.1: A Python client for statsd
