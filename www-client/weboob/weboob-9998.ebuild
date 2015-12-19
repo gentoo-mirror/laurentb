@@ -1,4 +1,4 @@
-# Copyright 2010-2014 Gentoo Foundation
+# Copyright 2010-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -38,7 +38,7 @@ RDEPEND="${DEPEND}
 	dev-python/mechanize[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	virtual/python-imaging[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 	dev-python/gdata[${PYTHON_USEDEP}]
 	dev-python/feedparser[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
@@ -50,11 +50,7 @@ RDEPEND="${DEPEND}
 	>=dev-python/lxml-3.0[${PYTHON_USEDEP}]
 	dev-python/cssselect[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.2[${PYTHON_USEDEP}]
-	sni? (
-		dev-python/pyopenssl[${PYTHON_USEDEP}]
-		dev-python/ndg-httpsclient[${PYTHON_USEDEP}]
-		dev-python/pyasn1[${PYTHON_USEDEP}]
-	)
+	sni? ( >=dev-lang/python-2.7.9 )
 	virtual/python-futures[${PYTHON_USEDEP}]"
 
 DOCS=( AUTHORS COPYING ChangeLog README INSTALL )
