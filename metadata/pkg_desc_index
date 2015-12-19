@@ -43,7 +43,6 @@ dev-vcs/git-goggles 0.2.12: A git utility to manage your source code as it evolv
 dev-vcs/git-publish-branch 20090831: git-publish-branch is a simple script to ease the unnecessarily complex task of "publishing" a branch
 dev-vcs/git-wtf 20091207: git-wtf is a script to display the state of your repository in a readable and easy-to-scan format.
 dev-vcs/gitbuster 2.1.8: Python Qt4 frontend for git filter-branch and git cherry-pick.
-dev-vcs/legit 0.1.1: A git CLI tool to manage branches easily.
 dev-vcs/tmpclone 0.3: Clone a SCM repo (git) temporarily
 games-misc/fortune-mod-lca 1.0: Quotes from La Classe Américaine
 games-strategy/menareants 9999: Men Are Ants is a strategic turn by turn (simultaneous) game with solo and multiplayer modes.
