@@ -14,18 +14,17 @@ dev-python/chut 0.10: Small tool to interact with shell pipes
 dev-python/commando 0.3.4 9999: A declarative interface for argparse
 dev-python/docopt 0.6.1: Pythonic argument parser
 dev-python/docopts 0.6.1-r2: Shell interface for docopt, the command-line interface description language
-dev-python/execnet 1.1-r2: Rapid multi-Python deployment
 dev-python/fabtools 0.19.0: Tools for writing awesome Fabric files
 dev-python/flakeplus 1.0.0: Additional pyflakes
 dev-python/fswrap 0.1.2: An opinionated wrapper on file system and path functions
-dev-python/ftfy 3.3.0: Fixes some problems with Unicode text after the fact
+dev-python/ftfy 3.4.0 4.0.0: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
 dev-python/ipaddress 1.0.7: Port of the Python 3.3+ ipaddress module to 2.6 and 2.7
-dev-python/isort 3.9.0: A Python utility / library to sort Python imports
-dev-python/pies 2.6.1: The simplest way to write one program that runs on both Python 2 and Python 3
-dev-python/pies2overrides 2.6.1: Defines override classes that should be included with pies only if running on Python2
-dev-python/plumbum 1.4.2: Shell combinators library
+dev-python/isort 4.2.2: A Python utility / library to sort Python imports
+dev-python/pies 2.6.7: The simplest way to write one program that runs on both Python 2 and Python 3
+dev-python/pies2overrides 2.6.7: Defines override classes that should be included with pies only if running on Python2
+dev-python/plumbum 1.6.0: Shell combinators library
 dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
@@ -58,7 +57,6 @@ net-im/prpl-coincoin 1.0.5: coincoin plugin for libpurple
 net-irc/irker 2.12-r50: Specialized IRC notification daemon
 net-misc/esniper 2.31.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
-net-misc/spiped 1.3.1: Utility for creating symmetrically encrypted and authenticated pipes between socket addresses.
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
 net-zope/zope-deprecation 4.1.1: Zope Deprecation Infrastructure
 sys-apps/fr-bepo-keymap 1.0_rc2: Bépo keymap for the Linux Console
