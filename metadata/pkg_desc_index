@@ -1,7 +1,7 @@
 app-admin/hot-babe 0.2.2: Displays the system activity in a very special way ;-)
-app-admin/profile-cleaner 2.32: Vacuum and reindex browser sqlite databases
+app-admin/profile-cleaner 2.35: Vacuum and reindex browser sqlite databases
 app-arch/dtrx 7.1: Intelligently extract multiple archive types.
-app-misc/mat 0.5.2: Metadata Anonymisation Toolkit
+app-misc/mat 0.5.4: Metadata Anonymisation Toolkit
 app-office/icalfilter 0.1: Swiss-army knife for iCalendar files; provides grep and sed-like features.
 app-text/dictator 0.9.7: On-screen text file reader employing Rapid Serial Visual Presentation.
 app-text/hyde 0.8.9: Static website generator written in Python
@@ -18,7 +18,6 @@ dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path function
 dev-python/ftfy 3.4.0 4.0.0: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
-dev-python/ipaddress 1.0.7: Port of the Python 3.3+ ipaddress module to 2.6 and 2.7
 dev-python/isort 4.2.2: A Python utility / library to sort Python imports
 dev-python/pies 2.6.7: The simplest way to write one program that runs on both Python 2 and Python 3
 dev-python/pies2overrides 2.6.7: Defines override classes that should be included with pies only if running on Python2
@@ -54,7 +53,7 @@ net-irc/irker 2.12-r50: Specialized IRC notification daemon
 net-misc/esniper 2.31.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
-net-zope/zope-deprecation 4.1.1: Zope Deprecation Infrastructure
+net-zope/zope-deprecation 4.1.2: Zope Deprecation Infrastructure
 sys-apps/fr-bepo-keymap 1.0_rc2: Bépo keymap for the Linux Console
 sys-apps/gcp 0.1.3: gcp (Goffi's cp) is a file copier with queuing, progress, FAT support.
 sys-apps/jsonpipe 0.0.8-r1: Convert JSON to a UNIX-friendly line-based format
