@@ -49,7 +49,7 @@ media-sound/dnuos 1.0.11-r1: A console program that creates lists of music colle
 media-sound/picard 9999: A cross-platform music tagger
 net-im/minbif 1.0.5-r1 9999: an IRC instant messaging gateway, using libpurple
 net-im/prpl-coincoin 1.0.5: coincoin plugin for libpurple
-net-irc/irker 2.13-r50: Specialized IRC notification daemon
+net-irc/irker 2.15-r50: Specialized IRC notification daemon
 net-misc/esniper 2.31.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
