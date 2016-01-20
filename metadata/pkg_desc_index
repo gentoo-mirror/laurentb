@@ -8,7 +8,6 @@ app-text/hyde 0.8.9: Static website generator written in Python
 dev-db/greptable 1.1.0: List tables of SQL databases for easy schema greps
 dev-php/symfony 1.4.20 9996 9997 9998 9999: Open-source PHP5 web framework
 dev-python/ConfigObject 1.2.2: Wrapper to the python ConfigParser to allow to access sections/options with attribute names
-dev-python/args 0.1.0: Command Arguments for Humans
 dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
 dev-python/chut 0.11: Small tool to interact with shell pipes
 dev-python/commando 1.0.0: A declarative interface for argparse
