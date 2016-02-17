@@ -25,7 +25,7 @@ dev-python/pyramid-meta 1: Pyramid common dependencies
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
 dev-python/smartypants 1.6.0.3 1.8.6: SmartyPants: a smart-quotes plugin.
 dev-python/statsd 3.2.1: A Python client for statsd
-dev-python/tasklib 0.12.0: Python Task Warrior library
+dev-python/tasklib 0.12.1: Python Task Warrior library
 dev-python/taskw 1.1.0: Python bindings for your taskwarrior database
 dev-python/typogrify 2.0.7: Filters to enhance web typography, including support for Django & Jinja templates
 dev-python/unicode-nazi 1.1: Annoying helper module that finds unicode/bytestring comparisions and other problems.
