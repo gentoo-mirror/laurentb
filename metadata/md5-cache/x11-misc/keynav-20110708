@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install prepare
 DEPEND=x11-proto/xproto x11-libs/cairo[X] x11-libs/libXinerama >=x11-misc/xdotool-2.0 >=dev-libs/glib-2.0
 DESCRIPTION=Make pointer-driven interfaces easier and faster for users to operate
-EAPI=5
+EAPI=6
 HOMEPAGE=http://www.semicomplete.com/projects/keynav/
 KEYWORDS=~amd64 ~x86
 LICENSE=as-is
 RDEPEND=x11-libs/cairo[X] x11-libs/libXinerama >=x11-misc/xdotool-2.0 >=dev-libs/glib-2.0
 SLOT=0
-SRC_URI=http://semicomplete.googlecode.com/files/keynav-0.20101014.3067.tar.gz
+SRC_URI=mirror://debian/pool/main/k/keynav/keynav_0.20110708.0.orig.tar.gz
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
 _eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=1bbd3a7de8687f9f8a958bc073c41473
+_md5_=216d7ee6ff93b750b2fb73356fcb306e
