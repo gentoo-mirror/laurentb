@@ -1,20 +1,20 @@
 # Copyright 2010-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
-EAPI=5
+EAPI=6
 PYTHON_COMPAT=( python2_7 )
 
 inherit distutils-r1 gnome2-utils
 
 if [ "$PV" == "9999" ]; then
 	EGIT_REPO_URI="git://git.symlink.me/pub/${PN}/devel.git"
-	inherit git-2
+	inherit git-r3
 	KEYWORDS=""
 	SRC_URI=""
 elif [ "$PV" == "9998" ]; then
 	EGIT_REPO_URI="git://git.symlink.me/pub/${PN}/stable.git"
-	inherit git-2
+	inherit git-r3
 	KEYWORDS=""
 	SRC_URI=""
 else
@@ -30,7 +30,9 @@ LICENSE="AGPL-3"
 SLOT="0"
 IUSE="X +secure-updates +sni fast-libs"
 
-DEPEND="X? ( >=dev-python/PyQt4-4.9.4-r1[X,phonon,${PYTHON_USEDEP}] )
+DEPEND="X? (
+		dev-python/PyQt5[multimedia,${PYTHON_USEDEP}]
+	)
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-python/prettytable[${PYTHON_USEDEP}]
