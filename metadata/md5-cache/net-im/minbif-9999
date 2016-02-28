@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install postinst prepare setup test unpack
-DEPEND=>=net-im/pidgin-2.7.10 video? ( >=net-im/pidgin-2.7[gstreamer] ) libcaca? ( media-libs/libcaca[imlib] ) imlib? ( media-libs/imlib2[png] ) pam? ( sys-libs/pam ) gnutls? ( net-libs/gnutls ) sys-devel/make >=dev-util/cmake-2.8.12 virtual/pkgconfig dev-vcs/git
+DEPEND=>=net-im/pidgin-2.7.10 video? ( >=net-im/pidgin-2.7[gstreamer] ) libcaca? ( media-libs/libcaca[imlib] ) imlib? ( media-libs/imlib2[png] ) pam? ( sys-libs/pam ) gnutls? ( net-libs/gnutls ) sys-devel/make >=dev-util/cmake-2.8.12 virtual/pkgconfig >=dev-vcs/git-1.8.2.1
 DESCRIPTION=an IRC instant messaging gateway, using libpurple
-EAPI=5
+EAPI=6
 HOMEPAGE=http://minbif.im/
 IUSE=debug gnutls +imlib +libcaca pam +syslog video -xinetd
 LICENSE=GPL-2
 RDEPEND=>=net-im/pidgin-2.7.10 video? ( >=net-im/pidgin-2.7[gstreamer] ) libcaca? ( media-libs/libcaca[imlib] ) imlib? ( media-libs/imlib2[png] ) pam? ( sys-libs/pam ) gnutls? ( net-libs/gnutls ) xinetd? ( sys-apps/xinetd ) syslog? ( virtual/logger )
 SLOT=0
-_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:git-2 src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
-_eclasses_=cmake-utils	c67ce9708a9c02be2d296cf547740e9c	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	git-2	df00117322129fb906bb0a53c3d6a020	multilib	3972ca401cf7dbb430df9995f5d8d580	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
-_md5_=69bc2534bd293790207cce93b2062d9e
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:git-r3 src_prepare:- src_configure:- src_compile:cmake-utils src_test:cmake-utils src_install:-
+_eclasses_=cmake-utils	c67ce9708a9c02be2d296cf547740e9c	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	git-r3	ef66dfc3db09f327af21cf32f140fb2b	multilib	3972ca401cf7dbb430df9995f5d8d580	systemd	3165c885f3c71ffae7a867d931fb0e07	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	user	906f3c8eb3a2350a4f1191a89baa3e46	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=cfdf8ba1816483dbc1b03941a28cff3b
