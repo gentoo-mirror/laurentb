@@ -24,7 +24,7 @@ dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
 dev-python/smartypants 1.6.0.3 1.8.6: SmartyPants: a smart-quotes plugin.
-dev-python/tasklib 0.12.1: Python Task Warrior library
+dev-python/tasklib 1.0.0: Python Task Warrior library
 dev-python/taskw 1.1.0: Python bindings for your taskwarrior database
 dev-python/typogrify 2.0.7: Filters to enhance web typography, including support for Django & Jinja templates
 dev-python/unicode-nazi 1.1: Annoying helper module that finds unicode/bytestring comparisions and other problems.
@@ -46,7 +46,7 @@ media-sound/dnuos 1.0.11-r1: A console program that creates lists of music colle
 media-sound/picard 9999: A cross-platform music tagger
 net-im/minbif 1.0.5-r1 9999: an IRC instant messaging gateway, using libpurple
 net-im/prpl-coincoin 1.0.5: coincoin plugin for libpurple
-net-irc/irker 2.16-r50: Specialized IRC notification daemon
+net-irc/irker 2.17-r50: Specialized IRC notification daemon
 net-misc/esniper 2.31.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
