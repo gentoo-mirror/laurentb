@@ -43,7 +43,6 @@ games-strategy/menareants 9999: Men Are Ants is a strategic turn by turn (simult
 media-sound/acoustid-fingerprinter 0.6: GUI application to submit audio fingerprints to the Acoustid database.
 media-sound/brutha 1.1.0: Sync FLAC music files to Ogg Vorbis (or keep lossy as-is)
 media-sound/dnuos 1.0.11-r1: A console program that creates lists of music collections, based on directory structure.
-media-sound/picard 9999: A cross-platform music tagger
 net-im/minbif 1.0.5-r1 9999: an IRC instant messaging gateway, using libpurple
 net-im/prpl-coincoin 1.0.5: coincoin plugin for libpurple
 net-irc/irker 2.17-r50: Specialized IRC notification daemon
