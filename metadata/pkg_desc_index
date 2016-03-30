@@ -4,6 +4,7 @@ app-arch/dtrx 7.1: Intelligently extract multiple archive types.
 app-misc/mat 0.6.1: Metadata Anonymisation Toolkit
 app-office/icalfilter 0.1: Swiss-army knife for iCalendar files; provides grep and sed-like features.
 app-text/dictator 0.9.7: On-screen text file reader employing Rapid Serial Visual Presentation.
+app-text/doclifter 2.17: Lift documents in nroff markups to XML-DocBook
 app-text/hyde 0.8.9: Static website generator written in Python
 dev-db/greptable 1.1.0: List tables of SQL databases for easy schema greps
 dev-php/symfony 1.4.20 9996 9997 9998 9999: Open-source PHP5 web framework

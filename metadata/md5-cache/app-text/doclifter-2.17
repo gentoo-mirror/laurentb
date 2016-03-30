@@ -1,0 +1,14 @@
+DEFINED_PHASES=install setup
+DEPEND=app-text/docbook-xml-dtd:4.1.2 app-text/xmlto
+DESCRIPTION=Lift documents in nroff markups to XML-DocBook
+EAPI=6
+HOMEPAGE=http://www.catb.org/esr/doclifter/
+IUSE=python_targets_python2_7 python_targets_python3_3 python_targets_python3_4 python_targets_python3_5 python_single_target_python2_7 python_single_target_python3_3 python_single_target_python3_4 python_single_target_python3_5
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_single_target_python3_3? ( >=dev-lang/python-3.3.2-r2:3.3 ) python_single_target_python3_4? ( dev-lang/python:3.4 ) python_single_target_python3_5? ( dev-lang/python:3.5 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_3(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),python_single_target_python2_7(+)?,python_single_target_python3_3(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?]
+SLOT=0
+SRC_URI=http://www.catb.org/~esr/doclifter/doclifter-2.17.tar.gz
+_eclass_exported_funcs=pkg_setup:python-single-r1 src_install:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	2e6826f6a93ad2acf904eecf5b5fb6d2	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=a5907aeeff19cb05a295a1293e64b2ac
