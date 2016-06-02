@@ -46,7 +46,7 @@ media-sound/brutha 1.1.0: Sync FLAC music files to Ogg Vorbis (or keep lossy as-
 media-sound/dnuos 1.0.11-r1: A console program that creates lists of music collections, based on directory structure.
 net-im/minbif 1.0.5-r3 9999: an IRC instant messaging gateway, using libpurple
 net-im/prpl-coincoin 1.0.5: coincoin plugin for libpurple
-net-irc/irker 2.17-r51: Specialized IRC notification daemon
+net-irc/irker 2.18-r50: Specialized IRC notification daemon
 net-misc/esniper 2.31.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
