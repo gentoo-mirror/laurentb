@@ -9,5 +9,5 @@ RDEPEND=x11-libs/cairo[X] x11-libs/libXinerama >=x11-misc/xdotool-2.0 >=dev-libs
 SLOT=0
 SRC_URI=mirror://debian/pool/main/k/keynav/keynav_0.20110708.0.orig.tar.gz
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	bfd09e8e66991dd5ce9e57610d8d1e6c
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	77f907363e91028a361ce5a3e9e7ed1e
 _md5_=216d7ee6ff93b750b2fb73356fcb306e
