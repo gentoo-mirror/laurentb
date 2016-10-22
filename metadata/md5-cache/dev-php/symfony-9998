@@ -8,5 +8,5 @@ LICENSE=MIT LGPL-2.1 BSD BSD-2 FDL-1.2
 RDEPEND=dev-lang/php[cli,ctype,session,simplexml,tokenizer,xml] || ( <dev-lang/php-5.3[pcre,reflection,spl] >=dev-lang/php-5.3 ) dev-php/pear dev-lang/php:* >=dev-php/pear-1.9.0
 SLOT=0
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:php-pear-lib-r1 src_unpack:git-2 src_prepare:- src_install:php-pear-lib-r1
-_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4	multilib	165fc17c38d1b11dac2008280dab6e80	php-pear-lib-r1	ddea8bba98cb56b7acc5a966ea40cb2c	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4	multilib	165fc17c38d1b11dac2008280dab6e80	php-pear-lib-r1	ddea8bba98cb56b7acc5a966ea40cb2c	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=ac0aac27f76e251ce3ea818c3602f449
