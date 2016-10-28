@@ -3,12 +3,12 @@ DEPEND=app-text/docbook-xml-dtd:4.1.2 app-text/xmlto virtual/pkgconfig
 DESCRIPTION=Specialized IRC notification daemon
 EAPI=6
 HOMEPAGE=http://www.catb.org/esr/irker/
-IUSE=python_targets_python2_7 python_targets_python3_3 python_targets_python3_4 python_targets_python3_5 python_single_target_python2_7 python_single_target_python3_3 python_single_target_python3_4 python_single_target_python3_5
+IUSE=python_targets_python2_7 python_targets_python3_4 python_targets_python3_5 python_single_target_python2_7 python_single_target_python3_4 python_single_target_python3_5
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[ssl] ) python_single_target_python3_3? ( >=dev-lang/python-3.3.2-r2:3.3[ssl] ) python_single_target_python3_4? ( dev-lang/python:3.4[ssl] ) python_single_target_python3_5? ( dev-lang/python:3.5[ssl] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_3(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),python_single_target_python2_7(+)?,python_single_target_python3_3(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?]
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[ssl] ) python_single_target_python3_4? ( dev-lang/python:3.4[ssl] ) python_single_target_python3_5? ( dev-lang/python:3.5[ssl] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),python_single_target_python2_7(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?]
 SLOT=0
 SRC_URI=http://www.catb.org/~esr/irker/irker-2.18.tar.gz
 _eclass_exported_funcs=pkg_setup:python-single-r1 src_prepare:- src_install:-
-_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	1797277ea0e7cee5c7de7ce74cf8acd8	systemd	5b6ca8b2fc1307ca593223f327342c96	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	2ebea8fbab356d63110245129a67a6dd	python-utils-r1	d142329ab093dd20c1dd0edb5f094108	systemd	5b6ca8b2fc1307ca593223f327342c96	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
 _md5_=adbfe19d3d254aa042e585b8e0f9e386
