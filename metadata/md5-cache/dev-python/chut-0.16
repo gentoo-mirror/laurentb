@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=https://pypi.python.org/packages/bc/3a/93b3235398e40a3ffe284fc233d7e4872994dc7662f537476a8d2ab940ec/chut-0.16.tar.gz
 _eclass_exported_funcs=src_prepare:distutils-r1 src_configure:distutils-r1 src_compile:distutils-r1 src_test:distutils-r1 src_install:distutils-r1
 _eclasses_=distutils-r1	674dae153419b2200ae54e879cc65b57	multibuild	742139c87a9fa3766f0c2b155e5522bf	multilib	165fc17c38d1b11dac2008280dab6e80	multiprocessing	e32940a7b2a9992ad217eccddb84d548	python-r1	0f6937650a475d673baa5d0c8c0b37b3	python-utils-r1	d142329ab093dd20c1dd0edb5f094108	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	xdg-utils	e2b2bd56125ce8cf59ce30c642b59d48
-_md5_=67b622f879c7098dc52c0b4d2628650e
+_md5_=48eec9ec5eceefe21fcd8c8e90ff8d58
