@@ -1,5 +1,5 @@
 app-admin/hot-babe 0.2.2: Displays the system activity in a very special way ;-)
-app-admin/profile-cleaner 2.35: Vacuum and reindex browser sqlite databases
+app-admin/profile-cleaner 2.36: Vacuum and reindex browser sqlite databases
 app-arch/dtrx 7.1: Intelligently extract multiple archive types.
 app-misc/mat 0.6.1: Metadata Anonymisation Toolkit
 app-office/icalfilter 0.1: Swiss-army knife for iCalendar files; provides grep and sed-like features.
