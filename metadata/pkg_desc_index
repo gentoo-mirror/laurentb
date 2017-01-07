@@ -18,7 +18,6 @@ dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path function
 dev-python/ftfy 3.4.0 4.2.0: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
-dev-python/isort 4.2.5: A Python utility / library to sort Python imports
 dev-python/kitchen 1.2.4: Kitchen contains a cornucopia of useful code
 dev-python/pies 2.6.7: The simplest way to write one program that runs on both Python 2 and Python 3
 dev-python/pies2overrides 2.6.7: Defines override classes that should be included with pies only if running on Python2
