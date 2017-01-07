@@ -24,7 +24,7 @@ dev-python/pies2overrides 2.6.7: Defines override classes that should be include
 dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
-dev-python/smartypants 1.8.6: SmartyPants: a smart-quotes plugin.
+dev-python/smartypants 2.0.0: SmartyPants: a smart-quotes plugin.
 dev-python/tasklib 1.0.0: Python Task Warrior library
 dev-python/taskw 1.2.0: Python bindings for your taskwarrior database
 dev-python/typogrify 2.0.7: Filters to enhance web typography, including support for Django & Jinja templates
