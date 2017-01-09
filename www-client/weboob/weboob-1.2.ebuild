@@ -1,25 +1,25 @@
-# Copyright 2010-2016 Gentoo Foundation
+# Copyright 2010-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
 EAPI=6
 PYTHON_COMPAT=( python2_7 )
 
-inherit distutils-r1 gnome2-utils
+inherit distutils-r1 gnome2-utils bash-completion-r1
 
 if [ "$PV" == "9999" ]; then
-	EGIT_REPO_URI="git://git.symlink.me/pub/${PN}/devel.git"
+	EGIT_REPO_URI="https://git.weboob.org/${PN}/devel.git"
 	inherit git-r3
 	KEYWORDS=""
 	SRC_URI=""
 elif [ "$PV" == "9998" ]; then
-	EGIT_REPO_URI="git://git.symlink.me/pub/${PN}/stable.git"
+	EGIT_REPO_URI="https://git.weboob.org/${PN}/devel.git"
 	inherit git-r3
 	KEYWORDS=""
 	SRC_URI=""
 else
 	KEYWORDS="~x86 ~amd64"
-	REDMINE_ID="324"
+	REDMINE_ID="342"
 	SRC_URI="https://symlink.me/attachments/download/${REDMINE_ID}/${P}.tar.gz"
 fi
 
@@ -30,7 +30,9 @@ LICENSE="AGPL-3"
 SLOT="0"
 IUSE="X +secure-updates +sni fast-libs"
 
-DEPEND="X? ( >=dev-python/PyQt4-4.9.4-r1[X,phonon,${PYTHON_USEDEP}] )
+DEPEND="X? (
+		dev-python/PyQt5[multimedia,${PYTHON_USEDEP}]
+	)
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-python/prettytable[${PYTHON_USEDEP}]
@@ -39,7 +41,7 @@ RDEPEND="${DEPEND}
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
-	dev-python/gdata[${PYTHON_USEDEP}]
+	dev-python/google-api-python-client[${PYTHON_USEDEP}]
 	dev-python/feedparser[${PYTHON_USEDEP}]
 	dev-python/termcolor[${PYTHON_USEDEP}]
 	secure-updates? ( app-crypt/gnupg )
@@ -55,6 +57,12 @@ RDEPEND="${DEPEND}
 
 DOCS=( AUTHORS COPYING ChangeLog README INSTALL )
 
+src_prepare() {
+	default
+
+	sed -i "s/exclude=\['modules'\]/exclude=['modules', 'modules.*']/" setup.py
+}
+
 python_configure_all() {
 	mydistutilsargs=(
 		$(usex X '--qt' '--no-qt')
@@ -64,8 +72,15 @@ python_configure_all() {
 
 python_install_all() {
 	distutils-r1_python_install_all
+
 	insinto /usr/share/${PN}/
 	doins -r contrib
+
+	newbashcomp tools/weboob_bash_completion ${PN}
+	local script
+	for script in scripts/*; do
+		[[ $(basename $script) != "weboob" ]] && bashcomp_alias "weboob" $(basename $script)
+	done
 }
 
 pkg_preinst() {
