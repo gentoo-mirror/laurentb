@@ -19,4 +19,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND=""
+RDEPEND="dev-python/html5lib[${PYTHON_USEDEP}]
+	dev-python/wcwidth[${PYTHON_USEDEP}]"
