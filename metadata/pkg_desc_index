@@ -15,7 +15,7 @@ dev-python/commando 1.0.0: A declarative interface for argparse
 dev-python/fabtools 0.20.0: Tools for writing awesome Fabric files
 dev-python/flakeplus 1.1.0: Additional pyflakes
 dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path functions
-dev-python/ftfy 3.4.0 4.2.0: Fixes some problems with Unicode text after the fact
+dev-python/ftfy 4.2.0 4.3.1: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
 dev-python/kitchen 1.2.4: Kitchen contains a cornucopia of useful code
