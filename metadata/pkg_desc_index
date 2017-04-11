@@ -31,7 +31,7 @@ dev-python/pies 2.6.7: The simplest way to write one program that runs on both P
 dev-python/pies2overrides 2.6.7: Defines override classes that should be included with pies only if running on Python2
 dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
-dev-python/python-slugify 1.2.2: A Python Slugify application that handles Unicode
+dev-python/python-slugify 1.2.3: A Python Slugify application that handles Unicode
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
 dev-python/pytimeparse 1.1.6: A small Python module to parse various kinds of time expressions
 dev-python/smartypants 2.0.0: SmartyPants: a smart-quotes plugin.
