@@ -13,7 +13,7 @@ dev-python/ConfigObject 1.2.2: Wrapper to the python ConfigParser to allow to ac
 dev-python/agate 1.6.0: A data analysis library that is optimized for humans instead of machines
 dev-python/agate-dbf 0.2.0: agate-dbf adds read support for dbf files to agate
 dev-python/agate-excel 0.2.1: agate-excel adds read support for Excel files (xls and xlsx) to agate
-dev-python/agate-sql 0.5.1: agate-sql adds SQL read/write support to agate
+dev-python/agate-sql 0.5.2: agate-sql adds SQL read/write support to agate
 dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
 dev-python/chut 0.16: Small tool to interact with shell pipes
 dev-python/commando 1.0.0: A declarative interface for argparse
