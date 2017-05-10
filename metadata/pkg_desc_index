@@ -2,7 +2,7 @@ app-admin/hot-babe 0.2.2: Displays the system activity in a very special way ;-)
 app-arch/dtrx 7.1: Intelligently extract multiple archive types.
 app-misc/mat 0.6.1: Metadata Anonymisation Toolkit
 app-office/icalfilter 0.1: Swiss-army knife for iCalendar files; provides grep and sed-like features.
-app-text/csvkit 1.0.1: A suite of utilities for converting to and working with CSV, the king of tabular file formats.
+app-text/csvkit 1.0.2: A suite of utilities for converting to and working with CSV, the king of tabular file formats.
 app-text/dictator 0.9.7: On-screen text file reader employing Rapid Serial Visual Presentation.
 app-text/doclifter 2.17: Lift documents in nroff markups to XML-DocBook
 app-text/hyde 0.8.9: Static website generator written in Python
