@@ -9,5 +9,5 @@ RDEPEND=dev-lang/php[cli,ctype,session,simplexml,tokenizer,xml] || ( <dev-lang/p
 SLOT=0
 SRC_URI=http://pear.symfony-project.com/get/symfony-1.4.20.tgz
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:php-pear-lib-r1 src_prepare:- src_install:php-pear-lib-r1
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	php-pear-lib-r1	4aceea6d0874f06b5ea7463ea1125634	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	php-pear-lib-r1	4aceea6d0874f06b5ea7463ea1125634	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
 _md5_=ac0aac27f76e251ce3ea818c3602f449
