@@ -7,6 +7,7 @@ app-text/dictator 0.9.7: On-screen text file reader employing Rapid Serial Visua
 app-text/doclifter 2.17: Lift documents in nroff markups to XML-DocBook
 app-text/hyde 0.8.9: Static website generator written in Python
 dev-db/greptable 1.1.0: List tables of SQL databases for easy schema greps
+dev-php/symfony 1.4.20-r1 9996-r1 9997-r1 9998-r1 9999-r1: Open-source PHP5 web framework
 dev-python/ConfigObject 1.2.2: Wrapper to the python ConfigParser to allow to access sections/options with attribute names
 dev-python/agate 1.6.0: A data analysis library that is optimized for humans instead of machines
 dev-python/agate-dbf 0.2.0: agate-dbf adds read support for dbf files to agate
