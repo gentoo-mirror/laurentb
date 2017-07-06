@@ -9,4 +9,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=http://gitorious.org/willgit/mainline/blobs/raw/165815e/bin/git-publish-branch -> git-publish-branch-20090831 http://stuff.laurent.bachelier.name/mirror/git-publish-branch-20090831
 _eclass_exported_funcs=src_unpack:- src_install:-
-_md5_=2060cc890c47238db40f8a4ed06761e5
+_md5_=3beeb83b2a1b3078b58bc3cb67f08de5

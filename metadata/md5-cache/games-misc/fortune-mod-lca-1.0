@@ -8,4 +8,4 @@ RDEPEND=games-misc/fortune-mod
 SLOT=0
 SRC_URI=http://stuff.laurent.bachelier.name/mirror/fortune-lca-1.0.tar.bz2
 _eclass_exported_funcs=src_install:-
-_md5_=e6331dbca528db9f2458ec52e35d6566
+_md5_=57d8409a95e29ba6e40c4dd40405eab3

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=x11-proto/xproto x11-libs/cairo[X] x11-libs/libXinerama >=x11-misc/xdotool-3.0 >=dev-libs/glib-2.0 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Make pointer-driven interfaces easier and faster for users to operate
+EAPI=6
+HOMEPAGE=https://github.com/jordansissel/keynav
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=x11-libs/cairo[X] x11-libs/libXinerama >=x11-misc/xdotool-3.0 >=dev-libs/glib-2.0
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
+_md5_=89d5fb4f7395867347f66944252071f1
