@@ -7,5 +7,4 @@ LICENSE=CC-BY-SA-3.0 FDL-1.2
 RDEPEND=sys-apps/kbd
 SLOT=0
 SRC_URI=http://download.tuxfamily.org/dvorak/keymaps/fr-dvorak-bepo-keymaps-1.0rc2.tgz
-_eclass_exported_funcs=pkg_postinst:- src_compile:- src_install:-
 _md5_=c914d338712e1552b4c9890db1dd29c2
