@@ -24,19 +24,22 @@ dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path function
 dev-python/ftfy 4.4.3 5.1.1: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
-dev-python/kitchen 1.2.4: Kitchen contains a cornucopia of useful code
 dev-python/leather 0.3.3: Python charting for 80% of humans
 dev-python/munch 2.1.1: A dot-accessible dictionary (a la JavaScript objects).
 dev-python/pies 2.6.7: The simplest way to write one program that runs on both Python 2 and Python 3
 dev-python/pies2overrides 2.6.7: Defines override classes that should be included with pies only if running on Python2
+dev-python/pyblake2 0.9.3: BLAKE2 hash function extension module
 dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
 dev-python/python-slugify 1.2.4: A Python Slugify application that handles Unicode
 dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
 dev-python/pytimeparse 1.1.6: A small Python module to parse various kinds of time expressions
+dev-python/requests-toolbelt 0.8.0: A utility belt for advanced users of python-requests
 dev-python/smartypants 2.0.0: SmartyPants: a smart-quotes plugin.
 dev-python/tasklib 1.1.0: Python Task Warrior library
 dev-python/taskw 1.2.0: Python bindings for your taskwarrior database
+dev-python/tqdm 4.11.0: Add a progress meter to your loops in a second.
+dev-python/twine 1.9.1: Utilities for interacting with PyPI
 dev-python/typogrify 2.0.7: Filters to enhance web typography, including support for Django & Jinja templates
 dev-python/unicode-nazi 1.1: Annoying helper module that finds unicode/bytestring comparisions and other problems.
 dev-python/unipath 1.1: Object-oriented alternative to os/os.path/shutil
