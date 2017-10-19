@@ -16,7 +16,7 @@ dev-python/agate-sql 0.5.2: agate-sql adds SQL read/write support to agate
 dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
 dev-python/chut 0.16: Small tool to interact with shell pipes
 dev-python/commando 1.0.0: A declarative interface for argparse
-dev-python/convertdate 2.1.1: Converts between Gregorian dates and other calendar systems.
+dev-python/convertdate 2.1.2: Converts between Gregorian dates and other calendar systems.
 dev-python/dbfread 2.0.7: Read DBF Files with Python
 dev-python/elasticsearch-py 1.4.0: official Python low-level client for Elasticsearch
 dev-python/fabtools 0.20.0: Tools for writing awesome Fabric files
