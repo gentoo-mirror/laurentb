@@ -29,7 +29,6 @@ dev-python/leather 0.3.3: Python charting for 80% of humans
 dev-python/munch 2.1.1: A dot-accessible dictionary (a la JavaScript objects).
 dev-python/pies 2.6.7: The simplest way to write one program that runs on both Python 2 and Python 3
 dev-python/pies2overrides 2.6.7: Defines override classes that should be included with pies only if running on Python2
-dev-python/pyblake2 0.9.3: BLAKE2 hash function extension module
 dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
 dev-python/pyramid-meta 1: Pyramid common dependencies
 dev-python/python-slugify 1.2.4: A Python Slugify application that handles Unicode
