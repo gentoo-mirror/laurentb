@@ -7,6 +7,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RDEPEND=dev-libs/openssl >=net-misc/curl-7.12[ssl]
 SLOT=0
-SRC_URI=mirror://sourceforge/esniper/esniper-2-33-0.tgz
+SRC_URI=mirror://sourceforge/esniper/esniper-2-35-0.tgz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	versionator	26ca8a8bd95d6a74122c08ba98a4ee72
 _md5_=0432a178a1343da89ad8a549a7b8c571
