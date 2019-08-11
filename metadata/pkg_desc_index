@@ -1,1 +1,66 @@
-dev-python/ftfy 4.4.3: Fixes some problems with Unicode text after the fact
+app-admin/hot-babe 0.2.2: Displays the system activity in a very special way ;-)
+app-arch/dtrx 7.1: Intelligently extract multiple archive types.
+app-misc/mat 0.6.1: Metadata Anonymisation Toolkit
+app-office/icalfilter 0.1: Swiss-army knife for iCalendar files; provides grep and sed-like features.
+app-text/csvkit 1.0.4: A suite of utilities for converting to and working with CSV
+app-text/dictator 0.9.7: On-screen text file reader employing Rapid Serial Visual Presentation.
+app-text/doclifter 2.19: Lift documents in nroff markups to XML-DocBook
+app-text/hyde 0.8.9: Static website generator written in Python
+dev-db/greptable 1.1.0: List tables of SQL databases for easy schema greps
+dev-python/ConfigObject 1.2.2: Wrapper to the python ConfigParser to allow to access sections/options with attribute names
+dev-python/agate 1.6.1: A data analysis library that is optimized for humans instead of machines
+dev-python/agate-dbf 0.2.1: agate-dbf adds read support for dbf files to agate
+dev-python/agate-excel 0.2.3: agate-excel adds read support for Excel files (xls and xlsx) to agate
+dev-python/agate-sql 0.5.4: agate-sql adds SQL read/write support to agate
+dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
+dev-python/chut 0.17: Small tool to interact with shell pipes
+dev-python/commando 1.0.0: A declarative interface for argparse
+dev-python/convertdate 2.1.3: Converts between Gregorian dates and other calendar systems.
+dev-python/dbfread 2.0.7: Read DBF Files with Python
+dev-python/elasticsearch-py 1.4.0: official Python low-level client for Elasticsearch
+dev-python/fabtools 0.20.0: Tools for writing awesome Fabric files
+dev-python/flakeplus 1.1.0: Additional pyflakes
+dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path functions
+dev-python/ftfy 4.4.3 5.5.1: Fixes some problems with Unicode text after the fact
+dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
+dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
+dev-python/leather 0.3.3: Python charting for 80% of humans
+dev-python/pprp 0.2.6: A pure-Python Rijndael (AES) and PBKDF2 library.
+dev-python/pyfeed 0.7.4: Python modules for working with syndication feeds
+dev-python/python-jose 3.0.1: A JOSE implementation in Python
+dev-python/python-slugify 1.2.4: A Python Slugify application that handles Unicode
+dev-python/pythonwhois 2.4.3: Module for retrieving and parsing the WHOIS data for a domain.
+dev-python/pytimeparse 1.1.6: A small Python module to parse various kinds of time expressions
+dev-python/smartypants 2.0.0 2.0.1: SmartyPants: a smart-quotes plugin.
+dev-python/tasklib 1.1.0: Python Task Warrior library
+dev-python/taskw 1.2.0: Python bindings for your taskwarrior database
+dev-python/twine 1.9.1: Utilities for interacting with PyPI
+dev-python/typogrify 2.0.7: Filters to enhance web typography, including support for Django & Jinja templates
+dev-python/unicode-nazi 1.1: Annoying helper module that finds unicode/bytestring comparisions and other problems.
+dev-python/unipath 1.1: Object-oriented alternative to os/os.path/shutil
+dev-python/urwid_satext 0.6.1: SàT extension widgets for Urwid
+dev-python/wokkel 0.7.1: Twisted Jabber support library
+dev-python/xe 0.7.4: XML elements is a Python library designed to make it easy to work with XML
+dev-python/xunitparser 1.3.3: Read JUnit/XUnit XML files and map them to Python objects
+dev-vcs/git-goggles 0.2.12: A git utility to manage your source code as it evolves through its development lifecycle
+dev-vcs/gitbuster 2.1.8: Python Qt4 frontend for git filter-branch and git cherry-pick.
+dev-vcs/tmpclone 0.3: Clone a SCM repo (git) temporarily
+games-misc/fortune-mod-lca 1.0: Quotes from La Classe Américaine
+games-strategy/menareants 9999: Men Are Ants is a strategic turn by turn (simultaneous) game with solo and multiplayer modes.
+media-sound/acoustid-fingerprinter 0.6: GUI application to submit audio fingerprints to the Acoustid database.
+media-sound/brutha 1.1.1: Sync FLAC music files to Ogg Vorbis (or keep lossy as-is)
+media-sound/dnuos 1.0.11-r1: A console program that creates lists of music collections, based on directory structure.
+media-sound/dr14tmeter 1.0.16: Compute the DR14 value of the given audio files
+net-im/minbif 1.0.5-r3 9999: an IRC instant messaging gateway, using libpurple
+net-im/prpl-coincoin 1.0.5: coincoin plugin for libpurple
+net-irc/irker 2.18-r50: Specialized IRC notification daemon
+net-misc/esniper 2.35.0: A simple, lightweight tool for sniping ebay auctions
+net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
+net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
+sys-apps/fr-bepo-keymap 1.0_rc2: Bépo keymap for the Linux Console
+sys-apps/jsonpipe 0.0.8-r1: Convert JSON to a UNIX-friendly line-based format
+sys-fs/system-storage-manager 0.4: A single tool to manage your storage.
+www-apps/assnet 9999: The Asocial Sharing Network
+www-client/weboob 1.5 9998 9999: Consume lots of websites without a browser (Web Outside Of Browsers)
+x11-misc/keynav 20150730: Make pointer-driven interfaces easier and faster for users to operate
+x11-plugins/lal 1.1: lal is a clock for the dock. Nothing more, nothing less.
