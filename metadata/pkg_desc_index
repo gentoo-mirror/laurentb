@@ -21,7 +21,7 @@ dev-python/elasticsearch-py 1.4.0: official Python low-level client for Elastics
 dev-python/fabtools 0.20.0: Tools for writing awesome Fabric files
 dev-python/flakeplus 1.1.0: Additional pyflakes
 dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path functions
-dev-python/ftfy 4.4.3 5.5.1: Fixes some problems with Unicode text after the fact
+dev-python/ftfy 4.4.3 5.6: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
 dev-python/gfbi_core 0.5.6: Core files for interactive git filter branch.
 dev-python/leather 0.3.3: Python charting for 80% of humans
