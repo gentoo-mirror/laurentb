@@ -8,5 +8,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=x11-libs/cairo[X] x11-libs/libXinerama >=x11-misc/xdotool-3.0 >=dev-libs/glib-2.0
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=30aef18986e267d6977d9d86eab63b46
