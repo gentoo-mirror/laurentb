@@ -3,11 +3,11 @@ DEPEND=app-text/docbook-xml-dtd:4.1.2 app-text/xmlto
 DESCRIPTION=Lift documents in nroff markups to XML-DocBook
 EAPI=6
 HOMEPAGE=http://www.catb.org/esr/doclifter/
-IUSE=python_targets_python2_7 python_targets_python3_5 python_targets_python3_6 python_targets_python3_7 python_single_target_python2_7 python_single_target_python3_5 python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_targets_python2_7 python_targets_python3_5 python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 python_single_target_python2_7 python_single_target_python3_5 python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
-RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_5? ( dev-lang/python:3.5 >=dev-lang/python-exec-2:=[python_targets_python3_5] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] )
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_5? ( dev-lang/python:3.5 >=dev-lang/python-exec-2:=[python_targets_python3_5] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] )
 SLOT=0
 SRC_URI=http://www.catb.org/~esr/doclifter/doclifter-2.19.tar.gz
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	721d0faeb54c0c332aa593d384993b4c	python-utils-r1	f7aef159261e9835066ddf8d3a0e3487	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=2c1a5a6129fe0ffdccbb6bc0c7709f23
+_md5_=c3ebe7a761773d8a7a14df8eeb1ab647

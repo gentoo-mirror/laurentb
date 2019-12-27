@@ -19,7 +19,6 @@ dev-python/convertdate 2.1.3: Converts between Gregorian dates and other calenda
 dev-python/dbfread 2.0.7: Read DBF Files with Python
 dev-python/elasticsearch-py 1.4.0: official Python low-level client for Elasticsearch
 dev-python/fabtools 0.20.0: Tools for writing awesome Fabric files
-dev-python/flakeplus 1.1.0: Additional pyflakes
 dev-python/fswrap 1.0.0: An opinionated wrapper on file system and path functions
 dev-python/ftfy 4.4.3 5.6: Fixes some problems with Unicode text after the fact
 dev-python/gearman 2.0.2: Gearman Python API - Client, worker, and admin client interfaces
@@ -58,7 +57,6 @@ net-irc/irker 2.18-r50: Specialized IRC notification daemon
 net-misc/esniper 2.35.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
-sys-apps/fr-bepo-keymap 1.0_rc2: Bépo keymap for the Linux Console
 sys-apps/jsonpipe 0.0.8-r1: Convert JSON to a UNIX-friendly line-based format
 sys-fs/system-storage-manager 0.4: A single tool to manage your storage.
 www-apps/assnet 9999: The Asocial Sharing Network
