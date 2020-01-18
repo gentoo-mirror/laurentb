@@ -12,7 +12,6 @@ dev-python/agate 1.6.1: A data analysis library that is optimized for humans ins
 dev-python/agate-dbf 0.2.1: agate-dbf adds read support for dbf files to agate
 dev-python/agate-excel 0.2.3: agate-excel adds read support for Excel files (xls and xlsx) to agate
 dev-python/agate-sql 0.5.4: agate-sql adds SQL read/write support to agate
-dev-python/calabash 0.0.3: Bash-style pipelining for Python generators.
 dev-python/chut 0.17: Small tool to interact with shell pipes
 dev-python/commando 1.0.0: A declarative interface for argparse
 dev-python/convertdate 2.1.3: Converts between Gregorian dates and other calendar systems.
@@ -57,7 +56,6 @@ net-irc/irker 2.18-r50: Specialized IRC notification daemon
 net-misc/esniper 2.35.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
-sys-apps/jsonpipe 0.0.8-r1: Convert JSON to a UNIX-friendly line-based format
 sys-fs/system-storage-manager 0.4: A single tool to manage your storage.
 www-apps/assnet 9999: The Asocial Sharing Network
 www-client/weboob 1.5 9998 9999: Consume lots of websites without a browser (Web Outside Of Browsers)
