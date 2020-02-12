@@ -57,6 +57,7 @@ net-misc/esniper 2.35.0: A simple, lightweight tool for sniping ebay auctions
 net-misc/rtorrent-notify 1.1.0: Notify of rtorrent events, through RSS or IRC
 net-wireless/blueproximity 1.2.5: Proximity detector for your mobile phone via bluetooth
 sys-fs/system-storage-manager 0.4: A single tool to manage your storage.
+www-apps/assnet 9999: The Asocial Sharing Network
 www-client/weboob 1.5 9998 9999: Consume lots of websites without a browser (Web Outside Of Browsers)
 x11-misc/keynav 20150730: Make pointer-driven interfaces easier and faster for users to operate
 x11-plugins/lal 1.1: lal is a clock for the dock. Nothing more, nothing less.
