@@ -8,5 +8,5 @@ LICENSE=BSD
 RDEPEND=dev-libs/openssl >=net-misc/curl-7.12[ssl]
 SLOT=0
 SRC_URI=mirror://sourceforge/esniper/esniper-2-35-0.tgz
-_eclasses_=estack	d780995dc525ff7e6a2c4c043ffec242	versionator	d3fb3ba33acc3bbbdc4d7970227c100d
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	versionator	d3fb3ba33acc3bbbdc4d7970227c100d
 _md5_=0432a178a1343da89ad8a549a7b8c571
